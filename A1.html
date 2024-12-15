@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <script>
+        var choice = prompt("Welcome to area calculator \nPlease enter your choice. \n1.Perimeter of rectangle. \n2.Perimeter of Triangle \n3.Perimeter of Circle. \n4.Perimeter of Parallelogram.");
+        if (choice == "1") {
+            var l = prompt("Enter the Length")
+            var b = prompt("Enter the Breadth")
+            var result = 2 * Number(l) + Number(b)
+            alert("The Perimeter is " + result)
+        }
+        if (choice == "2") {
+            var s = prompt("Enter the Side")
+            var result = 3 * Number(s) 
+            alert("The Perimeter is " + result)
+        }
+        if (choice == "3") {
+            var r = prompt("Enter the Radius")
+            var result = 2 * 3.14 * Number(r)
+            alert("The Perimeter is " + result)
+        }
+        if (choice == "4") {
+            var l = prompt("Enter the Length")
+            var b = prompt("Enter the Base")
+            var result = 2 * Number(l) + 2 * Number(b)
+            alert("The Perimeter is " + result)
+        }
+    </script>
+</body>
+
+</html>
